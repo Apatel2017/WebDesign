@@ -1,6 +1,16 @@
 /********** Base styles **********/
 h1 {
+  text-align: center;
   margin-bottom: 15px;
+}
+
+section{
+  text-align: right;
+  background: 000000;
+}
+
+p{
+  background: D3D3De;
 }
 
 * {
@@ -55,13 +65,6 @@ h1 {
   .col-lg-12 {
     width: 100%;
   }
-  #p1 {
-    width: 80%;
-  }
-  #p2 {
-    width: 150px;
-    height: 150px;
-  }
 }
 
 
@@ -106,16 +109,6 @@ h1 {
   }
   .col-md-12 {
     width: 100%;
-  }
-  #p1 {
-    width: 50%;
-  }
-  #p2 {
-    width: 100px;
-    height: 100px;
-  }
-  body {
-    background-color: blue;
   }
 }
 
