@@ -5,15 +5,16 @@ h1 {
 }
 
 section{
+  float: right;
   text-align: right;
-  background: #000000;
+  background-color: #000000;
   width: 100px;
   font-weight: bold;
   border: 2px solid black;
 }
 
 p{
-  background: #D3D3D3;
+  background-color: #D3D3D3;
 }
 
 * {
