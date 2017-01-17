@@ -1,37 +1,24 @@
 /********** Base styles **********/
-h1 {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-section{
-  float: right;
-  text-align: right;
-  background-color: #000000;
-  width: 100px;
-  font-weight: bold;
-  border: 2px solid black;
-}
-
-p{
-  background-color: #D3D3D3;
-}
 
 * {
   box-sizing: border-box;
-  padding: 0;
+  margin : 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
 }
 
 .row {
   width: 100%;
+  position: relative;
 }
 
 /********** Desktop only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 3px solid black;
-    margin: 15px;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -76,7 +63,6 @@ p{
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
@@ -114,18 +100,63 @@ p{
   .col-md-12 {
     width: 100%;
   }
+
+  #special {
+    width: 100%;
+  }
+
+  .unit3{
+    clear : both;
+  }
 }
 
-/********** default only **********/
-@media (max-width: 767px) {
-  #p1 {
-    width: 50%;
-  }
-  #p2 {
-    width: 100px;
-    height: 100px;
-  }
-  body {
-    background-color: blue;
-  }
+h1 {
+  font-size: 175%;
+  text-align: center;
+  margin: 30px 5px;
+}
+
+h3 {
+  font-size: 125%;
+  margin: 0px;
+}
+
+.clear{
+  clear : both;
+}
+
+.box{
+    border: 1px solid #000000;
+    background-color: #D3D3D3;
+    margin: 15px;
+}
+
+.unit{
+  width : 175px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  float: right;
+  padding: 5px 15px;
+  border: 1px solid #000000;
+  overflow: auto;
+}
+
+.unit1{
+    background-color: #F5B7B1;
+    color: #0000FF;
+}
+
+.unit2{
+    background-color: #5DADE2;
+    color: #000000;
+}
+
+.unit3{
+    background-color: #ABEBC6;
+    color: #FF0000;
+}
+
+.info{
+  padding : 50px 10px 10px 10px;
 }
